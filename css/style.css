@@ -1,0 +1,121 @@
+html{
+	margin-right: 3%;
+	margin-left: 3%;
+	margin-top: 1%;
+}
+
+body {
+	border-radius: 1%;
+	margin: 0;
+	background: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
+}
+
+header {
+	border-radius: 10px;
+	background: white;
+	padding-bottom: 1%;
+		padding-top: 0.5%;
+
+}
+
+header::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+nav ul li:first-child { float: left; }
+
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 1%;
+	list-style: none;
+}
+
+nav li {
+
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 23px;
+
+	position: relative;
+}
+
+nav a {
+
+	color: #AB67C9;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 100%;
+}
+
+nav a:hover {
+	color: #000;
+}
+
+nav a::before {
+	content: '';
+	display: block;
+	height: 5px;
+	background-color: #AB67C9;
+	position: absolute;
+	top: 0;
+	width: 0%;
+	transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+	width: 100%;
+}
+
+.canvas{
+}
+
+.navContainer {
+	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 1170px;
+}
+
+.navFloatRight {
+	float: right;
+	padding-right: 6%;
+	margin: 0;
+
+}
+
+.navFloatRight a {
+	font-family: 'Great Vibes', cursive;
+	font-size: 250%;
+	text-decoration: none;
+}
+
+hr {
+width: 90%;
+height: 5px;
+background-color:#AB67C9;
+color:#AB67C9;
+border: 0 none;
+padding-top: -3%;
+}
+
+.profilePic{
+	max-width: 90%;
+	height: 50%;	
+	margin: 0 auto;
+	background-color: #AB67C9;
+}
+
+#profilePic{
+	display: inline;
+	max-width: 100%;
+}
