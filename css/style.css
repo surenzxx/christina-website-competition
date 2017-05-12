@@ -8,7 +8,7 @@ body {
 	border-radius: 1%;
 	margin: 0;
 	background: white;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 400;
 }
 
@@ -50,11 +50,10 @@ nav li {
 }
 
 nav a {
-
 	color: #AB67C9;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-size: 100%;
+	font-size: 130%;
 }
 
 nav a:hover {
@@ -76,8 +75,21 @@ nav a:hover::before {
 	width: 100%;
 }
 
-.canvas{
+
+hr {
+	width: 90%;
+	height: 5px;
+	background-color:#AB67C9;
+	color:#AB67C9;
+	border: 0 none;
 }
+
+p{
+	left: 2%;
+	font-size: 120%;
+	font-weight: 300;
+}
+
 
 .navContainer {
 	margin-right: auto;
@@ -94,28 +106,25 @@ nav a:hover::before {
 }
 
 .navFloatRight a {
-	font-family: 'Great Vibes', cursive;
-	font-size: 250%;
+	font-family: 'Dancing Script', cursive;
+	font-size: 350%;
 	text-decoration: none;
 }
 
-hr {
-width: 90%;
-height: 5px;
-background-color:#AB67C9;
-color:#AB67C9;
-border: 0 none;
-padding-top: -3%;
-}
-
-.profilePic{
+.content{
 	max-width: 90%;
-	height: 50%;	
-	margin: 0 auto;
-	background-color: #AB67C9;
+	margin: auto;
+	overflow: hidden;
 }
 
-#profilePic{
-	display: inline;
-	max-width: 100%;
+.content img{
+	max-width: 50%;
+	margin-right: 15px;
+    float: left;
+    border-radius: 5px;
+}
+
+.aboutChristina{
+	padding-left: 55%;
+	padding-right: 5%;
 }
